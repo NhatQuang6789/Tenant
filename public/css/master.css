@@ -1,0 +1,107 @@
+body{
+	margin:0;
+	padding:0;
+}
+*{
+	box-sizing: border-box;
+}
+.default_container{
+	width:100%;
+	position:relative;
+}
+.core_container{
+	width:70%;
+	margin:20px 15%;
+	border:2px solid #ccc;
+	border-radius:10px;
+	padding:10px;
+}
+h4{
+	color:#af2020;
+	text-align: center;
+	font-style: italic; 
+}
+.main_menu{
+	width:100%;
+	height: 30px;
+	background-color: #ccc;
+	border-radius:10px;
+}
+.main_menu ul{
+	list-style-type: none; 
+	margin-left:-40px;
+}
+.main_menu ul li{
+	display: inline-block;
+	text-align:center;
+	width:33%;
+}
+.main_menu ul li a{
+	text-decoration:none; 
+	line-height: 30px;
+	color:#af2020;
+	font-style: italic;
+}
+.main_menu ul li a:hover{
+	border-bottom:1px solid #af2020;
+}
+
+.main_form{
+	border-top:1px solid #ccc;
+	margin-top:20px;
+	padding-top: 20px;
+	border-bottom:1px solid #ccc;;
+}
+.main_form input[type=submit]{
+	float:right;
+	height:30px;
+	width:150px;
+	border:1px solid #af2020;
+	border-radius:10px;
+	font-size: 0.9em;
+	background-color: #fff;
+	color:#af2020;
+	margin:10px 30px;
+	cursor:pointer;
+}
+.main_form input[type=submit]:hover{
+	background-color: #af2020;
+	color:#fff;
+	border:1px solid #af2020;
+}
+.clear{
+	clear:both;
+}
+#status{
+	width:90%;
+	height:90px;
+	padding: 10px;
+	font-size: 0.9em;
+	outline: none;
+	border:1px solid #ccc;
+	border-radius:10px;
+	margin:10px 5%;
+}
+.row_display{
+	width:100%;
+	padding:10px;
+	background-color: #eee;
+	border-radius: 10px;
+	margin-top:18px;
+}
+.default_name{
+	color:#333;
+	font-style: italic;
+	font-weight: bolder; 
+}
+.content_status{
+	margin-top:10px;
+}
+#logout{
+	border:hidden;
+	background-color: 
+	transparent;color:#af2020; 
+	font-style: italic;
+	font-size:0.9em;
+	cursor:pointer;
+}
